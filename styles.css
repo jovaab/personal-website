@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+  width: 95%;
+  margin: 0 auto;
+  top: 0;
+}
+
+div{
+  unicode-bidi: isolate;
+}
+
+header{
+  height: 50px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 1.5vh 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.titles{
+  flex-direction: column;
+  
+}
+
+header a{
+  text-decoration: none;
+  color: grey;
+}
+
+.nav-container a{
+  padding-right: 2vw;
+  font-size: 1.2rem;
+}
+
