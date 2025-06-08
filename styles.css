@@ -38,8 +38,63 @@ header a{
   color: grey;
 }
 
+.header a:hover{
+  color: brown;
+}
+
+.sidebar-container{
+  width: 35%;
+  border-right: 1px solid #000;
+  bottom: 0;
+  overflow: auto;
+  position: fixed;
+  top: calc(5vh + 51px);
+}
+
 .nav-container a{
   padding-right: 2vw;
   font-size: 1.2rem;
 }
 
+.description{
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+  padding-right: 3vh;
+  width: 100%;
+  border-right: solid 1px black;
+
+}
+
+
+.contact a{
+  text-decoration: none;
+  color: grey;
+}
+
+.contact a:hover{
+  color: brown;
+}
+
+.bio{
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-bottom: 1vh;
+
+}
+
+.student-desc{
+  padding-bottom: 1vh;
+}
+
+.contact{
+  padding-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1vh;
+}
+
+.experience-header{
+  padding-top: 5vh;
+  border-bottom: solid 1px black;
+
+}
