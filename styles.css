@@ -25,6 +25,8 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
+  margin-bottom: 0px;
 }
 
 
@@ -43,12 +45,20 @@ header a{
 }
 
 .sidebar-container{
-  width: 35%;
+  margin-top: 0px;
+
+  width: 30%;
   border-right: 1px solid #000;
   bottom: 0;
   overflow: auto;
   position: fixed;
   top: calc(5vh + 51px);
+}
+
+.nav-container{
+  display: flex;
+  gap: 2vw;
+  font-size: 1.2rem;
 }
 
 .nav-container a{
@@ -60,15 +70,17 @@ header a{
   padding-top: 3vh;
   padding-bottom: 1vh;
   padding-right: 3vh;
-  width: 100%;
-  border-right: solid 1px black;
+  width: 95%;
+  border-bottom: 1px solid black;
 
 }
+
 
 
 .contact a{
   text-decoration: none;
   color: grey;
+  padding-right: 5px;
 }
 
 .contact a:hover{
@@ -94,7 +106,14 @@ header a{
 }
 
 .experience-header{
-  padding-top: 5vh;
-  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: space-between;
+}
 
+
+
+.sidebar-item{
+  padding: 2vh 1vh 2vh 0;
+  border-bottom: solid 1px grey;
+  width: 95%
 }
