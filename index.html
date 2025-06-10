@@ -9,21 +9,24 @@
 </head>
 
 <body>
+<!--Copy and paste ts whenever new page is made-->
   <header class="header">
     <div class="titles">
-      <h1 class="name">JOSEF ABAT</h1>
+      <h1 class="name">JOSEF ABAT <span class="pronouns"> he/him</span></h1>
     </div>
     
-    <div class="nav-container">
-      <a href="">Work</a>
-      <a href="">About</a>
-      <a href="">Etc.</a>
-    </div>
+    <nav class="nav-container">
+      <ul>
+        <a href="index.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="">Etc.</a>
+      </ul>
+    </nav>
   </header>
 
 <!--sidebar and its contents-->
-  <div class="about-work">
-    <div class="sidebar-container">
+  <main class="about-work">
+    <aside class="sidebar-container">
       <div class="description">
         <p class="bio">Hi! I'm a software engineer passionate about creating engaging experiences, fostering social connection, and provoking conversations through my work.</p>
         <br>
@@ -92,8 +95,10 @@
         <div class="experience-position">Software engineer</div>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At aspernatur vitae placeat, a, enim perferendis saepe quis tenetur sapiente eaque velit cupiditate sequi numquam inventore quibusdam rerum possimus ad nisi?</p>
       </div>
-    </div>
-    <div class="intro-container">
+    </aside>
+
+<!--Selected work and its respective sections-->
+    <section class="intro-container">
       <p class="projects-header">SELECTED WORK</p>      
       <div class="project-links">
         <p>Thingamabobber</p>
@@ -110,8 +115,8 @@
         <p>Thingpilot</p>
 
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
   
 </body>
 </html>
