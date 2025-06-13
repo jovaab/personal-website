@@ -23,7 +23,10 @@ div{
 header{
   height: 50px;
   left: 0px;
-  position: relative;
+
+  position: fixed;
+  background: white;
+
   top: 0px;
   width: 100%;
   border-bottom: 1px solid black;
@@ -38,6 +41,12 @@ header{
 .titles{
   flex-direction: column;
 }
+
+.name{
+  padding-left: 2vh;
+}
+
+
 
 .pronouns{
   color: grey;
@@ -56,12 +65,10 @@ header a{
 
 .sidebar-container{
   margin-top: 0px;
-
   width: 30%;
   border-right: 1px solid #000;
   bottom: 0;
   overflow: auto;
-  
   position: fixed;
   top: calc(5vh + 51px);
 }
@@ -84,6 +91,7 @@ header a{
   padding-right: 3vh;
   width: 95%;
   border-bottom: 1px solid black;
+  
 }
 
 .contact a{
@@ -133,13 +141,15 @@ header a{
   overflow: auto;
   margin-left: 32.57%;
   padding: 1vh;
-  padding-top: 4vh;
+  padding-top: 9vh;
 }
 
 .projects-header{
+  font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 1vh;
   border-bottom: 1px solid black;
+  padding-top: 1vh;
 }
 
 .project-links{
@@ -157,7 +167,7 @@ header a{
   transition: all .25x ease;
 }
 
-.project-links p:hover, .selected-project{
+.project-links a:hover, .selected-project{
   color: brown;
   font-weight: bold;
   cursor: pointer;
@@ -177,3 +187,12 @@ header a{
   padding-top: 3vh;
   text-transform: uppercase;
 }
+
+.project-content{
+  display: none;
+}
+
+.project-content.active{
+  display: block;
+}
+
