@@ -193,6 +193,6 @@ header a{
 }
 
 .project-content.active{
-  display: block;
+  display: block !important;
 }
 
